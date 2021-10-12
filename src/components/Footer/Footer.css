@@ -1,0 +1,10 @@
+.footer-style{
+    /* background-color: rgb(62,68,80); */
+    background-color: #524A90;
+}
+.footer-links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}

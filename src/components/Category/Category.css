@@ -1,0 +1,35 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-card{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+.detail-btn{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border: 1px solid gray; 
+    padding: 6px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    bottom: 0;
+}
+
+.detail-btn:hover{
+    color: white;
+    background-color: #FF7468;
+    transition: 0.3s;
+    border: 0px;
+}
+
+.detail-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}

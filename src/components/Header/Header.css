@@ -1,0 +1,47 @@
+
+.header-container{
+    background-color: #524A90;
+}
+.h1-tag{
+    font-size: 90px;
+}
+.nav-style{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.nav-style:hover{
+    color: white;
+    border: 1px solid ghostwhite;
+    border-radius: 10px;
+}
+
+.course-card{
+    background-color: white;
+    width: 350px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+.course-card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
+
+
+@media screen and (max-width: 500px){
+.h1-tag{
+    font-size: 60px;
+}
+.course-card{
+    width: 320px;
+}
+.course-card img{
+    width: 320px;
+}
+}

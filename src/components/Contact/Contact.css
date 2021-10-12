@@ -1,0 +1,15 @@
+.text-area{
+    max-width: 100%;
+
+}
+.submit-btn{
+    margin: auto;
+    margin-top: 1em;
+}
+.input-field{
+    max-width: 100%;
+}
+
+.contact-container{
+    height: 100vh;
+}

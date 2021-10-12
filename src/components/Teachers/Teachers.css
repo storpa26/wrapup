@@ -1,0 +1,36 @@
+.teacher-card{
+    width: 568px;
+    height: 293px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin:5%;
+    padding: 2%;
+}
+
+.prof-btn{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border: 1px solid gray; 
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+
+.prof-btn:hover{
+    color: white;
+    background-color: #FF7468;
+    transition: 0.3s;
+    border: 0px;
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (max-width: 500px){
+    .teacher-card{
+        flex-direction: column;
+        height: 530px;
+        width: 280px;
+    }
+}

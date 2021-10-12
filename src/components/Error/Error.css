@@ -1,0 +1,9 @@
+.error-msg{
+    font-size: large;
+    color: gray;
+}
+  
+.error-page{
+    width: 100%;
+    height: 100vh;
+}
