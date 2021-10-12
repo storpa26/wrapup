@@ -44,4 +44,15 @@
 .course-card img{
     width: 320px;
 }
+.nav-container{
+    display: flex; 
+    flex-direction: column;
+
+}
+.nav-style{
+    border-bottom: 1px solid gray;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }

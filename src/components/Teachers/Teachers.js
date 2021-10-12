@@ -3,7 +3,7 @@ import "./Teachers.css"
 const Teachers = (props) => {
 
 
-    const { name, fb, img, dept, institute, id } = props.teach;
+    const { name, fb, img, dept, institute } = props.teach;
 
 
     return (
@@ -14,8 +14,8 @@ const Teachers = (props) => {
                 </div>
                 <div className="p-3">
                     <p className="fs-3 fw-bold">{name}</p>
-                    <p>{institute}</p>
                     <p>{dept}</p>
+                    <p>{institute}</p>
                     <a className="prof-btn" href={fb} target="_blank" rel="noreferrer">View Profile</a>
                 </div>
             </div>

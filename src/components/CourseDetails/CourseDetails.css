@@ -2,6 +2,25 @@ span{
     padding-left: 5px;
 }
 
-.detail-container{
-    height: 100vh;
+
+
+.subject-card img{
+    padding: 5%;
+}
+
+.subject-card{
+    height: 330px;
+    width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.go-back-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
 }

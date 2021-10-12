@@ -1,14 +1,15 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
-import Contact from './components/Contact/Contact';
 import CourseDetails from './components/CourseDetails/CourseDetails';
 import Courses from './components/Courses/Courses';
 import Error from './components/Error/Error';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Instructors from './components/Instructors/Instructors';
 import MainHead from './components/MainHead/MainHead';
+import Physics from './components/Physics/Physics';
 
 function App() {
 
@@ -34,15 +35,24 @@ function App() {
 
             <CourseDetails></CourseDetails>
           </Route>
-          <Route exact path="courseId/:subId">
+          <Route exact path="/physics">
             <MainHead></MainHead>
+            <Physics></Physics>
 
-            <CourseDetails></CourseDetails>
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/chemistry">
             <MainHead></MainHead>
+          </Route>
+          <Route exact path="/math">
+            <MainHead></MainHead>
+          </Route>
+          <Route exact path="/ict">
+            <MainHead></MainHead>
+          </Route>
 
-            <Contact></Contact>
+          <Route exact path="/instructors">
+            <MainHead></MainHead>
+            <Instructors></Instructors>
           </Route>
           <Route exact path="/about">
             <MainHead></MainHead>

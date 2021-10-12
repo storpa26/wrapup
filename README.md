@@ -8,5 +8,3 @@
     *Reasonable price
 
 # Link : https://academy-storpa26.netlify.app/
-"# wrapup" 
-"# wrapup" 
