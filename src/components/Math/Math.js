@@ -43,6 +43,9 @@ const Math = () => {
                                             <ul className="text-success">
                                                 <li>{member.hsc}</li>
                                             </ul>
+                                            <div className="detail-btn-container">
+                                                <a className="prof-btn" target="_blank" href="https://www.google.com/docs/about/" rel="noreferrer">Enroll Now</a>
+                                            </div>
                                         </div>
                                     </Accordion.Body>
                                 </Accordion.Item>

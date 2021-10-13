@@ -1,5 +1,5 @@
 
-import { Button, Col, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import "./CourseDetails.css"
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
@@ -11,8 +11,8 @@ const CourseDetails = () => {
             .then(data => setSub(data))
     }, [])
     return (
-        <div className="container mt-5 detail-container">
-            <div className="ms-3">
+        <div className="container mx-auto mt-5 detail-container">
+            <div className="mx-auto">
                 <Row className="gy-4">
                     {
                         sub.map((mp => {
@@ -43,12 +43,6 @@ const CourseDetails = () => {
 
                 </Row>
             </div>
-            <div className="go-back-btn">
-                <Link to="/courses">
-                    <Button className="detail-btn text-center" variant="success"> <span className="fw-bold">Go Back</span> </Button>
-                </Link>
-            </div>
-
         </div >
     );
 };

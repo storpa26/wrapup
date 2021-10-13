@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 
 .header-container{
     background-color: #524A90;
@@ -43,7 +47,7 @@ background: linear-gradient(260deg,#FF7468, #524A90); */
 
 @media screen and (max-width: 500px){
 .h1-tag{
-    font-size: 60px;
+    font-size: 45px;
 }
 .course-card{
     width: 320px;
@@ -54,7 +58,6 @@ background: linear-gradient(260deg,#FF7468, #524A90); */
 .nav-container{
     display: flex; 
     flex-direction: column;
-
 }
 .nav-style{
     border-bottom: 1px solid gray;

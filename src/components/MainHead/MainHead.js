@@ -1,7 +1,7 @@
 import logo from "../../logo.png"
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import "./MainHead.css"
 const MainHead = () => {
     return (
         <div className="container-fluid p-2 py-3 header-container">
@@ -48,7 +48,7 @@ const MainHead = () => {
 
                         }}
                     >
-                        About
+                        About Us
                     </NavLink>
                 </div>
             </div>

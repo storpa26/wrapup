@@ -54,8 +54,10 @@ const Header = () => {
 
                         }}
                     >
-                        About
+                        About Us
                     </NavLink>
+                    <a className="nav-style" href="#faqSec">FAQ</a>
+
                 </div>
             </div>
             <div className="container my-5 mx-auto">
