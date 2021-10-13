@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "chapter": "1",
+        "title": "Matrics & Determinants",
+        "code": "M-01",
+        "class1": "2 class - 500 TK",
+        "admission": "375 TK",
+        "hsc": "350 TK"
+    },
+    {
+        "id": 2,
+        "chapter": "2",
+        "title": "Vectors",
+        "code": "M-02",
+        "class1": "2 class - 500 TK",
+        "admission": "375 TK",
+        "hsc": "350 TK"
+    },
+    {
+        "id": 3,
+        "chapter": "3",
+        "title": "Straight Line",
+        "code": "M-03",
+        "class1": "4 class - 1000 TK",
+        "class2": "6 class - 1500 TK",
+        "admission": "400 TK",
+        "hsc": "700 TK(2 class)"
+    },
+    {
+        "id": 4,
+        "chapter": "4",
+        "title": "Circle",
+        "code": "M-04",
+        "class1": "3 class - 750 TK",
+        "class2": "4 class - 1000 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 5,
+        "chapter": "5",
+        "title": "Permutation And Combination",
+        "code": "M-05",
+        "class1": "3 class - 750 TK",
+        "class2": "4 class - 1000 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 6,
+        "chapter": "6",
+        "title": "Trigonometric Ratios",
+        "code": "M-06",
+        "class1": "2 class - 500 TK",
+        "admission": "375 TK",
+        "hsc": "350 TK"
+    },
+    {
+        "id": 7,
+        "chapter": "7",
+        "title": "Trigonometric Ratios and Associated Angles",
+        "code": "M-07",
+        "class1": "4 class - 1000 TK",
+        "class2": "5 class - 1250 TK",
+        "admission": "400 TK",
+        "hsc": "700 TK( 2 class)"
+    },
+    {
+        "id": 8,
+        "chapter": "8",
+        "title": "Functions And Graph of Function",
+        "code": "M-08",
+        "class1": "2 class - 500 TK",
+        "class2": "3 class - 750 TK",
+        "admission": "400 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 9,
+        "chapter": "9",
+        "title": "Differentiation",
+        "code": "M-09",
+        "class1": "5 class - 1250 TK",
+        "class2": "6 class - 1500 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 10,
+        "chapter": "10",
+        "title": "Integration",
+        "code": "M-10",
+        "class1": "5 class - 1250 TK",
+        "class2": "6 class - 1500 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 11,
+        "chapter": "11",
+        "title": "Real Number and Inequalitie",
+        "code": "M-11",
+        "class1": "1 class - 250 TK",
+        "class2": "2 class - 450 TK",
+        "admission": "375 TK",
+        "hsc": "375 TK"
+    },
+    {
+        "id": 12,
+        "chapter": "12",
+        "title": "Linear Programming",
+        "code": "M-12",
+        "class1": "1 class - 1250 TK",
+        "class2": "2 class - 450 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 13,
+        "chapter": "13",
+        "title": "Complex Number",
+        "code": "M-13",
+        "class1": "2 class - 500 TK",
+        "class2": "3 class - 750 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 14,
+        "chapter": "14",
+        "title": "Polynomial and Polynomial Equations",
+        "code": "M-14",
+        "class1": "3 class - 750 TK",
+        "class2": "4 class - 1000 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 15,
+        "chapter": "15",
+        "title": "Binomial Expressions",
+        "code": "M-15",
+        "class1": "3 class - 750 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 16,
+        "chapter": "16",
+        "title": "Conics",
+        "code": "M-16",
+        "class1": "4 class - 1000 TK",
+        "class2": "5 class - 1250 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 17,
+        "chapter": "17",
+        "title": "Inverse Trigonometric Function and Trigonometric Equations",
+        "code": "M-17",
+        "class1": "3 class - 750 TK",
+        "class2": "4 class - 1000 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 18,
+        "chapter": "18",
+        "title": "Statics",
+        "code": "M-18",
+        "class1": "4 class - 1000 TK",
+        "class2": "5 class - 1250 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 19,
+        "chapter": "19",
+        "title": "Motion of Particles",
+        "code": "M-19",
+        "class1": "4 class - 1000 TK",
+        "class2": "7 class - 1750 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 20,
+        "chapter": "20",
+        "title": "Measure of Dispersion and Probability",
+        "code": "M-20",
+        "class1": "3 class - 750 TK",
+        "class2": "4 class - 1000 TK",
+        "admission": "375 TK",
+        "hsc": "400 TK"
+    }
+]   

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logo from './home.png'
 import "./Home.css"
 import Category from '../Category/Category';
 import { Col, Row } from 'react-bootstrap';
@@ -12,7 +11,7 @@ import Teachers from '../Teachers/Teachers';
 const Home = () => {
     const [category, setCategory] = useState([]);
     useEffect(() => {
-        fetch('/category.JSON')
+        fetch('/courses.JSON')
             .then(res => res.json())
             .then(data => setCategory(data))
     }, [])
@@ -90,13 +89,16 @@ const Home = () => {
                 <div className="mt-5 right p-4">
                     <h3 className="fw-bolder fs-1">Start your learning <br />journey today!</h3>
                     <p>A best and cheapest way of getting know <br /> learning to make a better tomorrow</p>
+
+                    <a className="detail-btn" target="_blank" href="https://www.google.com/forms/about/" rel="noreferrer">Contact Us</a>
+
                 </div>
                 <br />
 
 
             </div >
             <section className="container category-container row mx-auto">
-                <h3 className="fw-bold text-center py-5">Courses We Offer</h3>
+                <h3 className="fw-bold text-center py-5">We Offer</h3>
                 {
                     category.map(cat => <Category cat={cat}></Category>)
                 }

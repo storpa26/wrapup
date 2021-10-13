@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "chapter": "1",
+        "title": "Information and Communication Technology : World and Bangladesh perspective",
+        "code": "I-01",
+        "class1": "1 class - 325 TK",
+        "admission": "400 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 2,
+        "chapter": "2",
+        "title": "Communication Systems and networking",
+        "code": "I-02",
+        "class1": "2 class - 500 TK",
+        "admission": "400 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 3,
+        "chapter": "3.1",
+        "title": "Number system",
+        "code": "I-03.1",
+        "class1": "4 class - 1000 TK",
+        "admission": "400 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 4,
+        "chapter": "3.2",
+        "title": "Digital Devices",
+        "code": "I-03.2",
+        "class1": "3 class - 750 TK",
+        "admission": "400 TK",
+        "hsc": "375 TK"
+    },
+    {
+        "id": 5,
+        "chapter": "4",
+        "title": "Introduction to Web Design & HTML",
+        "code": "I-04",
+        "class1": "4 class - 1000 TK",
+        "admission": "400 TK",
+        "hsc": "400 TK"
+    },
+    {
+        "id": 6,
+        "chapter": "5",
+        "title": "Programming Language",
+        "code": "I-05",
+        "class1": "6 class - 1500 TK",
+        "class2": "7 class - 1750 ",
+        "admission": "400 TK",
+        "hsc": "700 TK( 2 class) "
+    },
+    {
+        "id": 7,
+        "chapter": "6",
+        "title": "Database Management System",
+        "code": "I-06",
+        "class1": "3 class - 750 TK",
+        "admission": "400 TK",
+        "hsc": "375 TK"
+    }
+]

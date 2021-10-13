@@ -6,8 +6,8 @@ const MainHead = () => {
     return (
         <div className="container-fluid p-2 py-3 header-container">
             <div className="container text-center">
-                <img src={logo} alt="" width="300" height="180" />
                 <div className="nav-container">
+                    <img className="logo-style" src={logo} alt="" width="250" height="160" />
                     <NavLink className="nav-style"
                         to="/home"
                         activeStyle={{

@@ -1,0 +1,22 @@
+[
+    {
+        "id": "phy",
+        "title": "Physics",
+        "img": "https://img.freepik.com/free-vector/chalkboard-with-science-physics-formulas-background_97886-4558.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": "chem",
+        "title": "Chemistry",
+        "img": "https://i.pinimg.com/736x/c6/5a/52/c65a52c80a6c4687d0dd17cd700d5512.jpg"
+    },
+    {
+        "id": "math",
+        "title": "Math",
+        "img": "https://img.freepik.com/free-vector/realistic-math-chalkboard-background_23-2148154055.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": "ict",
+        "title": "ICT",
+        "img": "https://wallpaperaccess.com/full/2889825.jpg"
+    }
+]

@@ -1,23 +1,24 @@
 import './Category.css'
-import { Link } from 'react-router-dom';
+import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
+import { Accordion } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Category = (props) => {
 
-
-    const { title, img, id, description } = props.cat;
+    const { title, id, description } = props.cat
     return (
-        <div className='col-lg-3 col-sm-12 mx-auto'>
-            <div className="border border-1 p-3 mx-auto my-2 category-card">
-                <img src={img} alt="" height="120" width="180" />
-                <hr />
-                <h4 className="fw-bold text-center">{title}</h4>
-                <p className="p-3">{description}</p>
-                <div className="detail-btn-container">
-                    <Link to={`courses/${id}`}>
-                        <button className="detail-btn mt-auto">See Details</button>
-                    </Link>
-                </div>
+        <div>
+            <Accordion>
+                <Accordion.Item eventKey={id}>
+                    <Accordion.Header><FontAwesomeIcon className="mx-2" icon={faPlayCircle} /><span className="fs-5">{title}</span>
+                    </Accordion.Header>
+                    <Accordion.Body>
+                        <div>
+                            <p>{description}</p>
+                        </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
 
-            </div>
         </div>
     );
 };

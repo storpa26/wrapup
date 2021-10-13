@@ -5,19 +5,17 @@ import React, { useEffect, useState } from 'react';
 import { Accordion } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
-
-const Physics = () => {
+const Math = () => {
     const [price, setPrice] = useState([]);
     useEffect(() => {
-        fetch('/physics.JSON')
+        fetch('/math.JSON')
             .then(res => res.json())
             .then(data => setPrice(data))
     }, [])
     let history = useHistory();
-
     return (
         <div className="container-fluid">
-            <h4 className="text-center mt-4 fw-bold">Physics Classes Pricing</h4>
+            <h4 className="text-center mt-4 fw-bold">Math Classes Pricing</h4>
             <div className="container w-75 mt-4">
                 {
                     price.map((member => {
@@ -61,4 +59,4 @@ const Physics = () => {
     );
 };
 
-export default Physics;
+export default Math;

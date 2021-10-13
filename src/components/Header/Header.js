@@ -2,17 +2,18 @@ import logo from "../../logo.png"
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Header.css"
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { Col, Row } from 'react-bootstrap';
 const Header = () => {
 
     //put all navlinks in header component
 
     return (
-        <div className="container-fluid p-2 py-3 header-container">
+        <div className="container-fluid py-1 header-container">
             <div className="container text-center">
-                <img src={logo} alt="" width="300" height="180" />
                 <div className="nav-container">
+                    <img className="logo-style" src={logo} alt="" width="250" height="160" />
+
                     <NavLink className="nav-style"
                         to="/home"
                         activeStyle={{
@@ -66,11 +67,15 @@ const Header = () => {
                         <h4 className="text-white">Popular Now</h4>
                         <div className="course-card">
 
-                            <img src="https://cdn.dribbble.com/users/181929/screenshots/1997709/hsc_logo_2_post_inverse.jpg" alt="" height="380px" width="350px" />
-
+                            <img className="rounded" src="https://media-eng.dhakatribune.com/uploads/2019/03/img-1244-copy-1527105676018-1554036868445.jpg" alt="" height="250px" width="320px" />
                             <div className="p-3">
-                                <h4>HSC Special Care</h4>
-                                <p>Lorem, ipsum dolor.</p>
+                                <h4 className="fw-bold">HSC Special Care</h4>
+                                <div className="">
+                                    <Link to="/courses">
+                                        <button className="detail-btn">Go To Courses</button>
+                                    </Link>
+                                </div>
+
                             </div>
                         </div>
 
