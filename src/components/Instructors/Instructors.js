@@ -10,10 +10,10 @@ const Instructors = () => {
     }, [])
     return (
         <div>
-            <section className="container category-container row text-center mx-auto">
-                <h3 className="fw-bold text-center py-5">Instructors</h3>
+            <section className="container category-container row mx-auto">
+                <h3 className="fw-bold text-center py-5">Organizers</h3>
                 {
-                    teacher.map(teach => <Teachers teach={teach}></Teachers>)
+                    teacher.map(teach => <Teachers key={teach.id} teach={teach}></Teachers>)
                 }
             </section>
         </div>

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./Home.css"
+import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Category from '../Category/Category';
 import { Col, Row } from 'react-bootstrap';
 import task from "../../Task.png";
@@ -8,6 +10,7 @@ import sub from "../../Sub.png";
 import diss from "../../Diss.png";
 import Teachers from '../Teachers/Teachers';
 import FAQ from '../FAQ/FAQ';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [category, setCategory] = useState([]);
@@ -95,9 +98,9 @@ const Home = () => {
                 </div>
                 <div className="mt-5 right p-4">
                     <h3 className="fw-bolder fs-1">Start your learning <br />journey today!</h3>
-                    <p>A best and cheapest way of getting know <br /> learning to make a better tomorrow</p>
+                    <p>The best and cheapest way to deal with <br /> your drawbacks and build a strong <br /> foundation on any topic. </p>
 
-                    <a className="detail-btn" target="_blank" href="https://www.google.com/forms/about/" rel="noreferrer">Contact Us</a>
+                    <a className="detail-btn" target="_blank" href="https://forms.gle/kihmwLFwTevddh6f8" rel="noreferrer">Contact Us</a>
 
                 </div>
                 <br />
@@ -107,25 +110,31 @@ const Home = () => {
             <section className="container category-container row mx-auto">
                 <h3 className="fs-2 fw-bold text-center py-5">We Offer</h3>
                 {
-                    category.map(cat => <Category cat={cat}></Category>)
+                    category.map(cat => <Category key={cat.id} cat={cat}></Category>)
                 }
             </section>
             <section className="container category-container row mx-auto">
-                <h3 className="fs-2 fw-bold text-center py-5">Instructors</h3>
+                <h3 className="fs-2 fw-bold text-center py-5">Organizers</h3>
                 {
-                    teacher.map(teach => <Teachers teach={teach}></Teachers>)
+                    teacher.map(teach => <Teachers key={teach.id} teach={teach}></Teachers>)
                 }
             </section>
-            <section id="faqSec" className="container category-container row mx-auto">
+            <section id="faqSec" className="container category-container mx-auto">
                 <h3 className="fs-2 fw-bold text-center py-5">Frequently Asked Questions</h3>
                 {
-                    faqs.map(faq => <FAQ faq={faq}></FAQ>)
+                    faqs.map(faq => <FAQ key={faq.id} faq={faq}></FAQ>)
                 }
             </section>
 
             <div className="detail-btn-container my-5">
-                <a className="detail-btn" href="#top">^Top</a>
+                <a className="detail-btn fw-bold" href="#top"><FontAwesomeIcon icon={faArrowAltCircleUp} /> Top</a>
+                <Link to="/courses">
+                    <button className="mx-2 detail-btn">
+                        Enroll Now
+                    </button>
+                </Link>
             </div>
+
         </div>
     );
 };

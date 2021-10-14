@@ -5,12 +5,9 @@ html {
 
 .header-container{
     background-color: #524A90;
-    /* background: -webkit-linear-gradient(0deg,#FF7468, #524A90);
-background: linear-gradient(260deg,#FF7468, #524A90); */
- /* background: linear-gradient(87.13deg, #524A90 41%, #FF7468 101.69%); */
 }
 .h1-tag{
-    font-size: 90px;
+    font-size: 70px;
 }
 .nav-style{
     text-decoration: none;
@@ -29,7 +26,7 @@ background: linear-gradient(260deg,#FF7468, #524A90); */
 
 .course-card{
     background-color: white;
-    width: 320px;
+    width: 340px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 10px;
 }
@@ -65,4 +62,8 @@ background: linear-gradient(260deg,#FF7468, #524A90); */
     margin-left: auto;
     margin-right: auto;
 }
+}
+
+.offers{
+    color: #CAC8DA;
 }

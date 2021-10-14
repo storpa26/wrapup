@@ -1,4 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { SocialMediaIconsReact } from 'social-media-icons-react';
 import './App.css';
 import About from './components/About/About';
 import Chemistry from './components/Chemistry/Chemistry';
@@ -17,6 +18,9 @@ function App() {
 
   return (
     <div>
+      <div className="msnger">
+        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="messenger" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" url="https://m.me/wrapupeducation" size="60" />
+      </div>
       <BrowserRouter>
         {/* <Header></Header> */}
         <Switch>
@@ -48,7 +52,7 @@ function App() {
             <MainHead></MainHead>
             <ICT></ICT>
           </Route>
-          <Route exact path="/instructors">
+          <Route exact path="/organizers">
             <MainHead></MainHead>
             <Instructors></Instructors>
           </Route>

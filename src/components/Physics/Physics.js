@@ -22,7 +22,7 @@ const Physics = () => {
                 {
                     price.map((member => {
                         return (
-                            <Accordion>
+                            <Accordion key={member.id}>
                                 <Accordion.Item eventKey={member.id}>
                                     <Accordion.Header><FontAwesomeIcon className="mx-2" icon={faPlayCircle} /><span style={{ color: `${member.color}` }}>{member.title}
                                     </span> </Accordion.Header>
@@ -47,7 +47,7 @@ const Physics = () => {
                                             </ul>
 
                                             <div className="detail-btn-container">
-                                                <a className="prof-btn" target="_blank" href="https://www.google.com/docs/about/" rel="noreferrer">Enroll Now</a>
+                                                <a className="prof-btn" target="_blank" href="https://forms.gle/y8Tnmw4SYSExEXQN7" rel="noreferrer">Enroll Now</a>
                                             </div>
                                         </div>
                                     </Accordion.Body>

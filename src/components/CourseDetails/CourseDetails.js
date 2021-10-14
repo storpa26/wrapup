@@ -1,4 +1,3 @@
-
 import { Col, Row } from 'react-bootstrap';
 import "./CourseDetails.css"
 import { Link } from 'react-router-dom';
@@ -12,12 +11,14 @@ const CourseDetails = () => {
     }, [])
     return (
         <div className="container mx-auto mt-5 detail-container">
-            <div className="mx-auto">
+            <h3 className="text-center my-4">Available Subjects</h3>
+            <div>
                 <Row className="gy-4">
+
                     {
                         sub.map((mp => {
                             return (
-                                <Col lg="4" xs="12">
+                                <Col key={mp.id} lg="4" xs="12">
                                     <div className="subject-card">
                                         <div>
                                             <img src={mp.img} alt="" width="250" height="200" />
@@ -39,8 +40,6 @@ const CourseDetails = () => {
                             )
                         }))
                     }
-
-
                 </Row>
             </div>
         </div >

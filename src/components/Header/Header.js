@@ -18,7 +18,6 @@ const Header = () => {
                         to="/home"
                         activeStyle={{
                             borderBottom: 'solid 3px #FF7468',
-                            fontWeight: "bold",
 
                         }}
                     >
@@ -28,21 +27,17 @@ const Header = () => {
                         to="/courses"
                         activeStyle={{
                             borderBottom: 'solid 3px #FF7468',
-                            fontWeight: "bold",
-
                         }}
                     >
                         Courses
                     </NavLink>
                     <NavLink className="nav-style"
-                        to="/instructors"
+                        to="/organizers"
                         activeStyle={{
                             borderBottom: 'solid 3px #FF7468',
-                            fontWeight: "bold",
-
                         }}
                     >
-                        Instructors
+                        Organizers
 
                     </NavLink>
 
@@ -50,8 +45,6 @@ const Header = () => {
                         to="/about"
                         activeStyle={{
                             borderBottom: 'solid 3px #FF7468',
-                            fontWeight: "bold",
-
                         }}
                     >
                         About Us
@@ -63,13 +56,15 @@ const Header = () => {
             <div className="container my-5 mx-auto">
                 <Row>
                     <Col lg="6" xs="12">
-                        <h1 className="text-white fw-bold h1-tag">Our only concern is your education</h1>
+                        <h1 className="text-white fw-bold h1-tag">Look out, there is a chance, a dazzling chance
+                            Already here! Then give a glance.</h1>
+                        <p className="text-info">Let’s start settling all your unfinished syllabus.</p>
                     </Col>
                     <Col lg="6" xs="12">
-                        <h4 className="text-white">Popular Now</h4>
+                        <h4 className="text-info">Popular Now</h4>
                         <div className="course-card">
 
-                            <img className="rounded" src="https://media-eng.dhakatribune.com/uploads/2019/03/img-1244-copy-1527105676018-1554036868445.jpg" alt="" height="250px" width="320px" />
+                            <img className="rounded" src="https://image.freepik.com/free-vector/female-student-listening-webinar-online_74855-6461.jpg" alt="" height="270px" width="340px" />
                             <div className="p-3">
                                 <h4 className="fw-bold">HSC Special Care</h4>
                                 <div className="">
@@ -88,25 +83,27 @@ const Header = () => {
                 <Row>
                     <Col className="p-2" lg="4" xs="6">
                         <div>
-                            <h4 className="fs-2 fw-bold">Get 1 On 1 Care From Us</h4>
-                            <p>We are providing a certificate to you after completing any course or subjects.</p>
+                            <h4 className="fs-4 fw-bold">Live Class</h4>
+                            <p className="offers">All the live classes will be conducted <br /> through Zoom and Google Meet.</p>
                         </div>
 
                     </Col>
                     <Col className="p-2" lg="4" xs="6">
                         <div>
-                            <h4 className="fs-2 fw-bold">Get 1 On 1 Care From Us</h4>
-                            <p>We are providing a certificate to you after completing any course or subjects.</p>
+                            <h4 className="fs-4 fw-bold">1 Course 1 Chapter</h4>
+                            <p className="offers">We are providing very short term courses. The program is designed to cover only one <br /> chapter in one course.</p>
                         </div>
                     </Col>
                     <Col className="p-2" lg="4" xs="6">
                         <div>
-                            <h4 className="fs-2 fw-bold">Become a teacher of our platform.</h4>
-                            <p>We are giving you to become a teacher after completing your course and you can join freely.</p>
+                            <h4 className="fs-4 fw-bold">Solve Class Program</h4>
+                            <p className="offers">Enroll there and settle all your confusion regarding any topic.</p>
                         </div>
                     </Col>
                 </Row>
             </div>
+
+
         </div >
     );
 };

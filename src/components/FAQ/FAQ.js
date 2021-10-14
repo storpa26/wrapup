@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Accordion } from 'react-bootstrap';
 
 const FAQ = (props) => {
-    const { ques, ans, id } = props.faq;
+    const { ques, ans, id, link, click, here } = props.faq;
     return (
         <div>
 
@@ -14,7 +14,9 @@ const FAQ = (props) => {
                     <Accordion.Body>
                         <div>
                             <p>{ans}</p>
+                            <p><a target="_blank" href={link} rel="noreferrer">{click}</a> {here}</p>
                         </div>
+
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

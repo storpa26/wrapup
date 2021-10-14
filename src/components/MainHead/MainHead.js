@@ -12,8 +12,6 @@ const MainHead = () => {
                         to="/home"
                         activeStyle={{
                             borderBottom: 'solid 3px #FF7468',
-                            fontWeight: "bold",
-
                         }}
                     >
                         Home
@@ -22,21 +20,17 @@ const MainHead = () => {
                         to="/courses"
                         activeStyle={{
                             borderBottom: 'solid 3px #FF7468',
-                            fontWeight: "bold",
-
                         }}
                     >
                         Courses
                     </NavLink>
                     <NavLink className="nav-style"
-                        to="/instructors"
+                        to="/organizers"
                         activeStyle={{
                             borderBottom: 'solid 3px #FF7468',
-                            fontWeight: "bold",
-
                         }}
                     >
-                        Instructors
+                        Organizers
 
                     </NavLink>
 
@@ -44,8 +38,6 @@ const MainHead = () => {
                         to="/about"
                         activeStyle={{
                             borderBottom: 'solid 3px #FF7468',
-                            fontWeight: "bold",
-
                         }}
                     >
                         About Us
